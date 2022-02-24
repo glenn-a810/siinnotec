@@ -1,26 +1,65 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <p>Header Navigation Area</p>
+  </div>
+
+  <div>
+    <p>Carousel Area</p>
+  </div>
+
+  <div>
+    <p>Company Info</p>
+  </div>
+
+  <div>
+    <p>Company Vision</p>
+  </div>
+
+  <div>
+    <span>Service Outline</span>
+    <span> | </span>
+    <span>Recent Projects</span>
+  </div>
+
+  <div>
+    <p>Our Services</p>
+    <p>Service Card</p>
+  </div>
+
+  <div>
+    <p>Experiences List</p>
+    <p>Experiences Portfolio</p>
+  </div>
+
+  <div>
+    <p>Contact Us</p>
+    <p>Google Maps</p>
+  </div>
+
+  <div>
+    <p>Partners List</p>
+  </div>
+
+  <div>
+    <span>Footer Company Info</span>
+    <span> | </span>
+    <span>Footer Quick Links</span>
+    <span> | </span>
+    <span>Contact Info</span>
+    <p>Copyright</p>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
 }
 </style>
