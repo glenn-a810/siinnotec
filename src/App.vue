@@ -1,10 +1,14 @@
 <template>
   <div>
-    <p>Header Navigation Area</p>
+    <img src="./assets/logo.png" alt="logo" />
+    <a>ABOUT</a>
+    <a>SERVICES</a>
+    <a>EXPERIENCES</a>
+    <a>CONTACT</a>
   </div>
 
   <div>
-    <p>Carousel Area</p>
+    <img src="./assets/carousel/1.jpg" alt="carousel1" />
   </div>
 
   <div>
