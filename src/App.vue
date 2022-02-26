@@ -12,7 +12,12 @@
   </div>
 
   <div>
-    <p>Company Info</p>
+    <img src="./assets/about_overview_1.png" alt="about_overview" class="overview" />
+    <p>Greeting, We are SI Innotec</p>
+    <p>SI Innotec is specialized in the Marine Engineering, Renewable Energy, IT Renovation, and Productivity
+      Improvement consulting.</p>
+    <p>We provide opportunity to client purchase best quality with competitive price, and our professional teams are
+    best doing for the valued customers.</p>
   </div>
 
   <div>
@@ -65,5 +70,10 @@ export default {
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
     "Malgun Gothic", sans-serif;
+}
+
+.overview {
+  width: 20%;
+  height: 20%;
 }
 </style>
