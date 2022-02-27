@@ -11,17 +11,41 @@
     <img src="./assets/carousel/1.jpg" alt="carousel1" />
   </div>
 
-  <div>
-    <img src="./assets/about_overview_1.png" alt="about_overview" class="overview" />
-    <p>Greeting, We are SI Innotec</p>
-    <p>SI Innotec is specialized in the Marine Engineering, Renewable Energy, IT Renovation, and Productivity
-      Improvement consulting.</p>
-    <p>We provide opportunity to client purchase best quality with competitive price, and our professional teams are
-    best doing for the valued customers.</p>
+  <div class="parent">
+    <div class="child">
+      <img
+        src="./assets/about_overview_1.png"
+        alt="about_overview"
+        class="overview"
+      />
+    </div>
+    <div class="child">
+      <p>Greeting, We are SI Innotec</p>
+      <p>
+        SI Innotec is specialized in the Marine Engineering, Renewable Energy,
+        IT Renovation, and Productivity Improvement consulting.
+      </p>
+      <p>
+        We provide opportunity to client purchase best quality with competitive
+        price, and our professional teams are best doing for the valued
+        customers.
+      </p>
+    </div>
   </div>
 
-  <div>
-    <p>Company Vision</p>
+  <div class="parent">
+    <div class="child">
+      <p>INNOVATION</p>
+      <p>Find and develop a new technology product</p>
+    </div>
+    <div class="child">
+      <p>GLOBAL MARKETING</p>
+      <p>Expand a good global marketing area</p>
+    </div>
+    <div class="child">
+      <p>CUSTOMIZED SERVICES</p>
+      <p>Provide the finest customized service to clients</p>
+    </div>
   </div>
 
   <div>
@@ -73,7 +97,15 @@ export default {
 }
 
 .overview {
-  width: 20%;
-  height: 20%;
+  width: 50%;
+  height: 100%;
+}
+
+.parent {
+  display: flex;
+}
+
+.parent .child {
+  flex: 1;
 }
 </style>
