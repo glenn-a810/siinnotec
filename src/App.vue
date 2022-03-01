@@ -109,7 +109,61 @@
 
   <div>
     <p>Our Services</p>
-    <p>Service Card</p>
+    <hr />
+    <p>Reliable firm on fusing new technology and global marketing</p>
+  </div>
+
+  <div class="parent">
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>Business Consulting</p>
+      <p>
+        We promotion of development and commercialization of foreign advanced
+        technology products
+      </p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>International Business</p>
+      <p>We provide all businesses mentioned in above in overseas</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>ICT Business</p>
+      <p>
+        We provide ICT consulting of construction of major facilities of
+        security systems, mobile communications, smart-city, fusion of
+        information and communication, such as the construction of production,
+        materials, and personnel management system
+      </p>
+    </div>
+  </div>
+  <div class="parent">
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>Supply of Building Ship & Marine Equipments</p>
+      <p>
+        We supply the major equipments and materials of ship building / marine
+        to domestic and overseas shipyard
+      </p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>The Materials Business of New Technology</p>
+      <p>
+        We supply materials related new technology and renewable energy to
+        domestic and overseas
+      </p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>Product Consulting of Shipyard</p>
+      <p>
+        We provide consulting of improvement of the shipyard productivity,
+        equipment support and planning / design of production plants and ship
+        building
+      </p>
+    </div>
   </div>
 
   <div>
