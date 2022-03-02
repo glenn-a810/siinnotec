@@ -167,7 +167,90 @@
   </div>
 
   <div>
-    <p>Experiences List</p>
+    <p>Experiences</p>
+    <hr />
+
+    <div class="parent">
+      <div class="child">
+        <img src="./assets/6.jpg" alt="icon1" />
+      </div>
+      <div class="child">
+        <p>Department of Korean Veteran Associations</p>
+        <span>Korea</span>
+        <span>KORVA</span>
+        <span>Organization</span>
+        <p>
+          We provided consulting service to the Machinery manufacturing business
+          Department of the Korean veteran Associations, more than 38 new
+          business items which could contribute business extension such as rail
+          splitter and seismic access floor, etc. (2009-2014)
+        </p>
+        <ul>
+          <li>
+            Development(patent application) of earthquake-proof access floor
+            system
+          </li>
+          <li>
+            Development(patent application), installation, and testing of the
+            non-oil type turnout-roller of Railway.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="parent">
+      <div class="child">
+        <img src="./assets/6.jpg" alt="icon1" />
+      </div>
+      <div class="child">
+        <p>R&D proposal for the vessel development</p>
+        <span>Korea</span>
+        <span>STX Offshore & Shipbuilding</span>
+        <span>Offshore & Shipbuilding</span>
+        <p>
+          We provide the consulting of the research and development for getting
+          order of the Special vessels (Special Operations supports, training
+          must, training support tablets) (2013~2014)
+        </p>
+      </div>
+    </div>
+
+    <div class="parent">
+      <div class="child">
+        <img src="./assets/6.jpg" alt="icon1" />
+      </div>
+      <div class="child">
+        <p>Participation on the National key technology research Development</p>
+        <span>Korea</span>
+        <span>SAN Engineering</span>
+        <span>Offshore & Shipbuilding</span>
+        <p>
+          Participation to the warship administration Support Systems
+          development project which applying the national core technology
+          research and development projects (joint participation with the San
+          engineering) (2013~2016)
+        </p>
+      </div>
+    </div>
+
+    <div class="parent">
+      <div class="child">
+        <img src="./assets/6.jpg" alt="icon1" />
+      </div>
+      <div class="child">
+        <p>R&D proposal for the vessel development</p>
+        <span>Korea</span>
+        <span>Daewoo E&C</span>
+        <span>Offshore & Shipbuilding</span>
+        <p>
+          Registration of patent on the Generating System of roads using one-way
+          clutch (2011~2012)
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div>
     <p>Experiences Portfolio</p>
   </div>
 
