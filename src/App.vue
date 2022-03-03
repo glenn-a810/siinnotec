@@ -250,8 +250,68 @@
     </div>
   </div>
 
-  <div>
-    <p>Experiences Portfolio</p>
+  <div class="parent">
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>STX SHIPYARD REMODELING</p>
+      <p>JINHAE, KOREA / 2009~2010</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>STX SHIPYARD</p>
+      <p>GOSEONG, KOREA / 2010~2012</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>DAEHAN SHIPYARD</p>
+      <p>HAENAM, KOREA / 2007~2008</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>STX SHIPYARD</p>
+      <p>DALIAN, KOREA / 2008~2009</p>
+    </div>
+  </div>
+
+  <div class="parent">
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>PETERSBURG SHIPYARD</p>
+      <p>RUSSIA / 2011</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>FUJAIRAH</p>
+      <p>FUJAIRAH, UAE / 2011</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>JIZAN ECONOMIC CITY PORT</p>
+      <p>SAUDI ARABIA / 2011</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>INDONESIA SPECIAL SHIPYARD</p>
+      <p>INDONESIA / 2014~2015</p>
+    </div>
+  </div>
+
+  <div class="parent">
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>TELESCOPIC DOOR</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>BLASTING & PAINTING SYSTEM</p>
+    </div>
+    <div class="child">
+      <img src="./assets/6.jpg" alt="icon1" />
+      <p>OVERHEAD CRANE</p>
+    </div>
+    <div class="child">
+      <p> </p>
+    </div>
   </div>
 
   <div>
