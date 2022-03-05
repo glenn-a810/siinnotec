@@ -345,8 +345,25 @@
     </div>
   </div>
 
-  <div>
-    <p>Partners List</p>
+  <div class="parent">
+    <div class="child">
+      <img src="./assets/logo.png" alt="partner1"/>
+    </div>
+    <div class="child">
+      <img src="./assets/logo.png" alt="partner1"/>
+    </div>
+    <div class="child">
+      <img src="./assets/logo.png" alt="partner1"/>
+    </div>
+    <div class="child">
+      <img src="./assets/logo.png" alt="partner1"/>
+    </div>
+    <div class="child">
+      <img src="./assets/logo.png" alt="partner1"/>
+    </div>
+    <div class="child">
+      <img src="./assets/logo.png" alt="partner1"/>
+    </div>
   </div>
 
   <div>
