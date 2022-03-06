@@ -310,13 +310,13 @@
       <p>OVERHEAD CRANE</p>
     </div>
     <div class="child">
-      <p> </p>
+      <p></p>
     </div>
   </div>
 
   <div>
     <p>Contact Us</p>
-    <hr/>
+    <hr />
   </div>
   <div class="parent">
     <div class="child">
@@ -330,7 +330,9 @@
     <div class="child">
       <p>Google Maps</p>
       <p>Factory</p>
-      <p>86, Bongam-gongdan 11kil, Masan-hoiwon-gu, Changwon-si, Kyungsangnam-do</p>
+      <p>
+        86, Bongam-gongdan 11kil, Masan-hoiwon-gu, Changwon-si, Kyungsangnam-do
+      </p>
       <p>admin@siinnotec.co.kr</p>
       <p>82-55-251-2073</p>
       <p>82-55-295-2073</p>
@@ -347,32 +349,56 @@
 
   <div class="parent">
     <div class="child">
-      <img src="./assets/logo.png" alt="partner1"/>
+      <img src="./assets/logo.png" alt="partner1" />
     </div>
     <div class="child">
-      <img src="./assets/logo.png" alt="partner1"/>
+      <img src="./assets/logo.png" alt="partner1" />
     </div>
     <div class="child">
-      <img src="./assets/logo.png" alt="partner1"/>
+      <img src="./assets/logo.png" alt="partner1" />
     </div>
     <div class="child">
-      <img src="./assets/logo.png" alt="partner1"/>
+      <img src="./assets/logo.png" alt="partner1" />
     </div>
     <div class="child">
-      <img src="./assets/logo.png" alt="partner1"/>
+      <img src="./assets/logo.png" alt="partner1" />
     </div>
     <div class="child">
-      <img src="./assets/logo.png" alt="partner1"/>
+      <img src="./assets/logo.png" alt="partner1" />
     </div>
   </div>
 
+  <div class="parent">
+    <div class="child">
+      <img src="./assets/logo_footer.png" alt="logo_footer" />
+      <p>
+        SI Innotec specializes in marine engineering and productivity
+        improvement consulting as well as providing client opportunity to
+        purchase best quality with competitive price.
+      </p>
+      <p>
+        Professional team of marine engineers, productivity consultants and IT
+        technology professionals are working for the valued clients.
+      </p>
+    </div>
+    <div class="child">
+      <p>QUICK LINKS</p>
+      <ul>
+        <li>ABOUT</li>
+        <li>SERVICES</li>
+        <li>EXPERIENCES</li>
+        <li>CONTACT</li>
+      </ul>
+    </div>
+    <div class="child">
+      <p>Address : #302, Naewae Building 120-8, Gaepo-dong, Gangnam-gu, Seoul, Korea</p>
+      <p>Phone : 82-2-579-0956</p>
+      <p>Fax : 82-2-529-0955</p>
+      <p>Mail : admin@siinnotec.co.kr</p>
+    </div>
+  </div>
   <div>
-    <span>Footer Company Info</span>
-    <span> | </span>
-    <span>Footer Quick Links</span>
-    <span> | </span>
-    <span>Contact Info</span>
-    <p>Copyright</p>
+    <p>Copyright ⓒ SI Innotec Corp. All rights reserved.</p>
   </div>
 </template>
 
