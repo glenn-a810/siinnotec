@@ -1,10 +1,18 @@
 <template>
-  <div>
+  <div class="parent">
     <img src="./assets/logo.png" alt="logo" />
-    <a>ABOUT</a>
-    <a>SERVICES</a>
-    <a>EXPERIENCES</a>
-    <a>CONTACT</a>
+    <div class="child">
+      <a>ABOUT</a>
+    </div>
+    <div class="child">
+      <a>SERVICES</a>
+    </div>
+    <div class="child">
+      <a>EXPERIENCES</a>
+    </div>
+    <div class="child">
+      <a>CONTACT</a>
+    </div>
   </div>
 
   <div>
