@@ -1,16 +1,21 @@
 <template>
-  <div class="parent">
-    <img src="./assets/logo.png" alt="logo" />
-    <div class="child">
+  <div class="container">
+    <div class="menu">
+      <img src="./assets/logo.png" alt="logo" />
+    </div>
+    <div class="menu">
+      <p></p>
+    </div>
+    <div class="menu">
       <a>ABOUT</a>
     </div>
-    <div class="child">
+    <div class="menu">
       <a>SERVICES</a>
     </div>
-    <div class="child">
+    <div class="menu">
       <a>EXPERIENCES</a>
     </div>
-    <div class="child">
+    <div class="menu">
       <a>CONTACT</a>
     </div>
   </div>
@@ -19,15 +24,15 @@
     <img src="./assets/carousel/1.jpg" alt="carousel1" />
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img
         src="./assets/about_overview_1.png"
         alt="about_overview"
         class="overview"
       />
     </div>
-    <div class="child">
+    <div class="item">
       <p>Greeting, We are SI Innotec</p>
       <p>
         SI Innotec is specialized in the Marine Engineering, Renewable Energy,
@@ -41,23 +46,23 @@
     </div>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <p>INNOVATION</p>
       <p>Find and develop a new technology product</p>
     </div>
-    <div class="child">
+    <div class="item">
       <p>GLOBAL MARKETING</p>
       <p>Expand a good global marketing area</p>
     </div>
-    <div class="child">
+    <div class="item">
       <p>CUSTOMIZED SERVICES</p>
       <p>Provide the finest customized service to clients</p>
     </div>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <p>Service Outline</p>
       <hr />
       <p>Business consulting</p>
@@ -95,16 +100,16 @@
       </ul>
       <hr />
     </div>
-    <div class="child">
+    <div class="item">
       <p>Recent Projects</p>
       <hr />
-      <div class="parent">
-        <div class="child">
+      <div class="container">
+        <div class="item">
           <img src="./assets/6.jpg" alt="main_project1" />
           <br />
           <img src="./assets/10.jpg" alt="main_project2" />
         </div>
-        <div class="child">
+        <div class="item">
           <p>
             Performed consulting for PT PAL Indonesian National Shipyard’s
             regarding production system and equipment improvement.
@@ -121,8 +126,8 @@
     <p>Reliable firm on fusing new technology and global marketing</p>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>Business Consulting</p>
       <p>
@@ -130,12 +135,12 @@
         technology products
       </p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>International Business</p>
       <p>We provide all businesses mentioned in above in overseas</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>ICT Business</p>
       <p>
@@ -146,8 +151,8 @@
       </p>
     </div>
   </div>
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>Supply of Building Ship & Marine Equipments</p>
       <p>
@@ -155,7 +160,7 @@
         to domestic and overseas shipyard
       </p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>The Materials Business of New Technology</p>
       <p>
@@ -163,7 +168,7 @@
         domestic and overseas
       </p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>Product Consulting of Shipyard</p>
       <p>
@@ -178,11 +183,11 @@
     <p>Experiences</p>
     <hr />
 
-    <div class="parent">
-      <div class="child">
+    <div class="container">
+      <div class="item">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="child">
+      <div class="item">
         <p>Department of Korean Veteran Associations</p>
         <span>Korea</span>
         <span>KORVA</span>
@@ -206,11 +211,11 @@
       </div>
     </div>
 
-    <div class="parent">
-      <div class="child">
+    <div class="container">
+      <div class="item">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="child">
+      <div class="item">
         <p>R&D proposal for the vessel development</p>
         <span>Korea</span>
         <span>STX Offshore & Shipbuilding</span>
@@ -223,11 +228,11 @@
       </div>
     </div>
 
-    <div class="parent">
-      <div class="child">
+    <div class="container">
+      <div class="item">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="child">
+      <div class="item">
         <p>Participation on the National key technology research Development</p>
         <span>Korea</span>
         <span>SAN Engineering</span>
@@ -241,11 +246,11 @@
       </div>
     </div>
 
-    <div class="parent">
-      <div class="child">
+    <div class="container">
+      <div class="item">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="child">
+      <div class="item">
         <p>R&D proposal for the vessel development</p>
         <span>Korea</span>
         <span>Daewoo E&C</span>
@@ -258,66 +263,66 @@
     </div>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>STX SHIPYARD REMODELING</p>
       <p>JINHAE, KOREA / 2009~2010</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>STX SHIPYARD</p>
       <p>GOSEONG, KOREA / 2010~2012</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>DAEHAN SHIPYARD</p>
       <p>HAENAM, KOREA / 2007~2008</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>STX SHIPYARD</p>
       <p>DALIAN, KOREA / 2008~2009</p>
     </div>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>PETERSBURG SHIPYARD</p>
       <p>RUSSIA / 2011</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>FUJAIRAH</p>
       <p>FUJAIRAH, UAE / 2011</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>JIZAN ECONOMIC CITY PORT</p>
       <p>SAUDI ARABIA / 2011</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>INDONESIA SPECIAL SHIPYARD</p>
       <p>INDONESIA / 2014~2015</p>
     </div>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>TELESCOPIC DOOR</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>BLASTING & PAINTING SYSTEM</p>
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/6.jpg" alt="icon1" />
       <p>OVERHEAD CRANE</p>
     </div>
-    <div class="child">
+    <div class="item">
       <p></p>
     </div>
   </div>
@@ -326,8 +331,8 @@
     <p>Contact Us</p>
     <hr />
   </div>
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <p>Google Maps</p>
       <p>Headquarter</p>
       <p>#302, Naewae Building 120-8, Gaepo-dong, Gangnam-gu, Seoul, Korea</p>
@@ -335,7 +340,7 @@
       <p>82-70-8671-0012 / 82-2-579-0956</p>
       <p>82-2-529-0955</p>
     </div>
-    <div class="child">
+    <div class="item">
       <p>Google Maps</p>
       <p>Factory</p>
       <p>
@@ -345,7 +350,7 @@
       <p>82-55-251-2073</p>
       <p>82-55-295-2073</p>
     </div>
-    <div class="child">
+    <div class="item">
       <p>Google Maps</p>
       <p>Indonesia Office</p>
       <p>Ujung Surabaya, 60155 PO BOX 1134 Indonesia</p>
@@ -355,29 +360,29 @@
     </div>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img src="./assets/logo.png" alt="partner1" />
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/logo.png" alt="partner1" />
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/logo.png" alt="partner1" />
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/logo.png" alt="partner1" />
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/logo.png" alt="partner1" />
     </div>
-    <div class="child">
+    <div class="item">
       <img src="./assets/logo.png" alt="partner1" />
     </div>
   </div>
 
-  <div class="parent">
-    <div class="child">
+  <div class="container">
+    <div class="item">
       <img src="./assets/logo_footer.png" alt="logo_footer" />
       <p>
         SI Innotec specializes in marine engineering and productivity
@@ -389,7 +394,7 @@
         technology professionals are working for the valued clients.
       </p>
     </div>
-    <div class="child">
+    <div class="item">
       <p>QUICK LINKS</p>
       <ul>
         <li>ABOUT</li>
@@ -398,8 +403,11 @@
         <li>CONTACT</li>
       </ul>
     </div>
-    <div class="child">
-      <p>Address : #302, Naewae Building 120-8, Gaepo-dong, Gangnam-gu, Seoul, Korea</p>
+    <div class="item">
+      <p>
+        Address : #302, Naewae Building 120-8, Gaepo-dong, Gangnam-gu, Seoul,
+        Korea
+      </p>
       <p>Phone : 82-2-579-0956</p>
       <p>Fax : 82-2-529-0955</p>
       <p>Mail : admin@siinnotec.co.kr</p>
@@ -428,11 +436,19 @@ export default {
   height: 90%;
 }
 
-.parent {
+.container {
   display: flex;
 }
 
-.parent .child {
+.item {
   flex: 1;
+}
+
+.menu {
+  flex: 1;
+}
+
+.menu:nth-child(2) {
+  flex-grow: 5;
 }
 </style>
