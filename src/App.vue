@@ -25,14 +25,14 @@
   </div>
 
   <div class="container">
-    <div class="item">
+    <div class="contents">
       <img
         src="./assets/about_overview_1.png"
         alt="about_overview"
         class="overview"
       />
     </div>
-    <div class="item">
+    <div class="contents">
       <p>Greeting, We are SI Innotec</p>
       <p>
         SI Innotec is specialized in the Marine Engineering, Renewable Energy,
@@ -449,6 +449,18 @@ export default {
 }
 
 .menu:nth-child(2) {
+  flex-grow: 5;
+}
+
+.contents {
+  flex: 1;
+}
+
+.contents:nth-child(1) {
+  flex-grow: 2;
+}
+
+.contents:nth-child(2) {
   flex-grow: 5;
 }
 </style>
