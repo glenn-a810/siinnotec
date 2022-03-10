@@ -104,12 +104,12 @@
       <p>Recent Projects</p>
       <hr />
       <div class="container">
-        <div class="item">
+        <div class="contents">
           <img src="./assets/6.jpg" alt="main_project1" />
           <br />
           <img src="./assets/10.jpg" alt="main_project2" />
         </div>
-        <div class="item">
+        <div class="contents">
           <p>
             Performed consulting for PT PAL Indonesian National Shipyard’s
             regarding production system and equipment improvement.
@@ -184,10 +184,10 @@
     <hr />
 
     <div class="container">
-      <div class="item">
+      <div class="contents">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="item">
+      <div class="contents">
         <p>Department of Korean Veteran Associations</p>
         <span>Korea</span>
         <span>KORVA</span>
@@ -212,10 +212,10 @@
     </div>
 
     <div class="container">
-      <div class="item">
+      <div class="contents">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="item">
+      <div class="contents">
         <p>R&D proposal for the vessel development</p>
         <span>Korea</span>
         <span>STX Offshore & Shipbuilding</span>
@@ -229,10 +229,10 @@
     </div>
 
     <div class="container">
-      <div class="item">
+      <div class="contents">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="item">
+      <div class="contents">
         <p>Participation on the National key technology research Development</p>
         <span>Korea</span>
         <span>SAN Engineering</span>
@@ -247,10 +247,10 @@
     </div>
 
     <div class="container">
-      <div class="item">
+      <div class="contents">
         <img src="./assets/6.jpg" alt="icon1" />
       </div>
-      <div class="item">
+      <div class="contents">
         <p>R&D proposal for the vessel development</p>
         <span>Korea</span>
         <span>Daewoo E&C</span>
