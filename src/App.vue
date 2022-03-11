@@ -7,16 +7,16 @@
       <p></p>
     </div>
     <div class="menu">
-      <a>ABOUT</a>
+      <a class="spread-underline">ABOUT</a>
     </div>
     <div class="menu">
-      <a>SERVICES</a>
+      <a class="spread-underline">SERVICES</a>
     </div>
     <div class="menu">
-      <a>EXPERIENCES</a>
+      <a class="spread-underline">EXPERIENCES</a>
     </div>
     <div class="menu">
-      <a>CONTACT</a>
+      <a class="spread-underline">CONTACT</a>
     </div>
   </div>
 
@@ -446,10 +446,38 @@ export default {
 
 .menu {
   flex: 1;
+  align-self: center;
+  font-size: 12px;
 }
 
 .menu:nth-child(2) {
   flex-grow: 5;
+}
+
+.spread-underline {
+  color: #1a80b6;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 0;
+  position: relative;
+}
+
+.spread-underline:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background-color: #1a80b6;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.spread-underline:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .contents {
