@@ -120,7 +120,7 @@
     </div>
   </div>
 
-  <div>
+  <div class="serviceArea">
     <p>Our Services</p>
     <hr />
     <p>Reliable firm on fusing new technology and global marketing</p>
@@ -491,4 +491,16 @@ export default {
 .contents:nth-child(2) {
   flex-grow: 5;
 }
+
+.serviceArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceArea .serviceContents {
+  display: flex;
+}
+
 </style>
