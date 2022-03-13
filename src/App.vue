@@ -46,16 +46,16 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="item">
+  <div style="background-color: red; display: flex;">
+    <div style="flex: 1; text-align: center;">
       <p>INNOVATION</p>
       <p>Find and develop a new technology product</p>
     </div>
-    <div class="item">
+    <div style="flex: 1; text-align: center;">
       <p>GLOBAL MARKETING</p>
       <p>Expand a good global marketing area</p>
     </div>
-    <div class="item">
+    <div style="flex: 1; text-align: center;">
       <p>CUSTOMIZED SERVICES</p>
       <p>Provide the finest customized service to clients</p>
     </div>
@@ -497,10 +497,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.serviceArea .serviceContents {
-  display: flex;
+  background-color: red;
 }
 
 </style>
