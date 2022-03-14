@@ -46,16 +46,16 @@
     </div>
   </div>
 
-  <div style="background-color: red; display: flex;">
-    <div style="flex: 1; text-align: center;">
+  <div style="background-color: red; display: flex">
+    <div style="flex: 1; text-align: center">
       <p>INNOVATION</p>
       <p>Find and develop a new technology product</p>
     </div>
-    <div style="flex: 1; text-align: center;">
+    <div style="flex: 1; text-align: center">
       <p>GLOBAL MARKETING</p>
       <p>Expand a good global marketing area</p>
     </div>
-    <div style="flex: 1; text-align: center;">
+    <div style="flex: 1; text-align: center">
       <p>CUSTOMIZED SERVICES</p>
       <p>Provide the finest customized service to clients</p>
     </div>
@@ -64,41 +64,55 @@
   <div class="container">
     <div class="item">
       <p>Service Outline</p>
-      <hr />
-      <p>Business consulting</p>
-      <p>
-        We provide consulting of Development of organization and human
-        resources, Evaluation of business management, Development of new product
-        and commercialization support, Development of defense-related product
-        and commercialization support, Establishment support consulting.
-      </p>
-      <hr />
-      <p>Product consulting of Shipyard</p>
-      <p>
-        We provide consulting of improvement of the shipyard productivity,
-        equipment support and planning / design of production plants and ship
-        building.
-      </p>
-      <hr />
-      <p>ICT Business</p>
-      <p>
-        We provide ICT consulting of construction of major facilities of
-        security systems, mobile communications, smart-city, fusion of
-        information and communication, such as the construction of production,
-        materials, and personnel management system.
-      </p>
-      <hr />
-      <p>Supply of shipbuilding, marine, and new technology equipments</p>
-      <ul>
-        <li>Shipyard equipments and materials</li>
-        <li>Shipbuilding equipments and materials</li>
-        <li>
-          Radar with ECDIS(Electronic Chart Display and Information System
-        </li>
-        <li>Ship ECS(Engine Control System)</li>
-        <li>The materials of new technology and renewable energy</li>
-      </ul>
-      <hr />
+      <input type="radio" name="serviceAccordion" id="service1" />
+      <label>Business consulting</label>
+      <div>
+        <p>
+          We provide consulting of Development of organization and human
+          resources, Evaluation of business management, Development of new
+          product and commercialization support, Development of defense-related
+          product and commercialization support, Establishment support
+          consulting.
+        </p>
+      </div>
+      <!--      <hr />-->
+      <input type="radio" name="serviceAccordion" id="service2" />
+      <label>Product consulting of Shipyard</label>
+      <div>
+        <p>
+          We provide consulting of improvement of the shipyard productivity,
+          equipment support and planning / design of production plants and ship
+          building.
+        </p>
+      </div>
+      <!--      <hr />-->
+      <input type="radio" name="serviceAccordion" id="service3" />
+      <label>ICT Business</label>
+      <div>
+        <p>
+          We provide ICT consulting of construction of major facilities of
+          security systems, mobile communications, smart-city, fusion of
+          information and communication, such as the construction of production,
+          materials, and personnel management system.
+        </p>
+      </div>
+      <!--      <hr />-->
+      <input type="radio" name="serviceAccordion" id="service4" />
+      <label
+        >Supply of shipbuilding, marine, and new technology equipments</label
+      >
+      <div>
+        <ul>
+          <li>Shipyard equipments and materials</li>
+          <li>Shipbuilding equipments and materials</li>
+          <li>
+            Radar with ECDIS(Electronic Chart Display and Information System
+          </li>
+          <li>Ship ECS(Engine Control System)</li>
+          <li>The materials of new technology and renewable energy</li>
+        </ul>
+      </div>
+      <!--      <hr />-->
     </div>
     <div class="item">
       <p>Recent Projects</p>
@@ -498,6 +512,38 @@ export default {
   justify-content: center;
   align-items: center;
   background-color: red;
+}
+
+input[id*="service"] {
+  display: none;
+}
+
+input[id*="service"] + label {
+  font-size: 1em;
+  display: flex;
+  line-height: 4em;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 1px solid #d5d5d5;
+  cursor: pointer;
+}
+
+input[id*="service"] + label + div {
+  overflow: hidden;
+  height: 0;
+  display: flex;
+  align-items: center;
+  transition: all .3s;
+}
+
+input[id*="service"] + label + p {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+input[id*="service"]:checked + label + div {
+  height: 200px;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 </style>
