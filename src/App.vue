@@ -30,6 +30,7 @@
         src="./assets/about_overview_1.png"
         alt="about_overview"
         class="overview"
+        id="introduce"
       />
     </div>
     <div class="contents">
@@ -124,10 +125,10 @@
           <img src="./assets/10.jpg" alt="main_project2" />
         </div>
         <div class="contents">
-          <p>
+          <span>
             Performed consulting for PT PAL Indonesian National Shipyard’s
             regarding production system and equipment improvement.
-          </p>
+          </span>
           <p>Performed consulting established DSME’s ERP interface system</p>
         </div>
       </div>
@@ -450,6 +451,11 @@ export default {
   height: 90%;
 }
 
+img[id*="introduce"] {
+  width: 600px;
+  aspect-ratio: auto 600 / 264;
+}
+
 .container {
   display: flex;
 }
@@ -533,7 +539,7 @@ input[id*="service"] + label + div {
   height: 0;
   display: flex;
   align-items: center;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 input[id*="service"] + label + p {
@@ -545,5 +551,4 @@ input[id*="service"]:checked + label + div {
   height: 200px;
   border-bottom: 1px solid #d5d5d5;
 }
-
 </style>
