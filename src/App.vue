@@ -280,22 +280,22 @@
 
   <div class="container">
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_1.png" alt="exp_1" />
       <p>STX SHIPYARD REMODELING</p>
       <p>JINHAE, KOREA / 2009~2010</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_2.png" alt="exp_2" />
       <p>STX SHIPYARD</p>
       <p>GOSEONG, KOREA / 2010~2012</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_3.png" alt="exp_3" />
       <p>DAEHAN SHIPYARD</p>
       <p>HAENAM, KOREA / 2007~2008</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_4.png" alt="exp_4" />
       <p>STX SHIPYARD</p>
       <p>DALIAN, KOREA / 2008~2009</p>
     </div>
@@ -303,22 +303,22 @@
 
   <div class="container">
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_5.png" alt="exp_5" />
       <p>PETERSBURG SHIPYARD</p>
       <p>RUSSIA / 2011</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_6.png" alt="exp_6" />
       <p>FUJAIRAH</p>
       <p>FUJAIRAH, UAE / 2011</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_7.png" alt="exp_7" />
       <p>JIZAN ECONOMIC CITY PORT</p>
       <p>SAUDI ARABIA / 2011</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_8.png" alt="exp_8" />
       <p>INDONESIA SPECIAL SHIPYARD</p>
       <p>INDONESIA / 2014~2015</p>
     </div>
@@ -326,15 +326,15 @@
 
   <div class="container">
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_9.png" alt="exp_9" />
       <p>TELESCOPIC DOOR</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_13.png" alt="exp_13" />
       <p>BLASTING & PAINTING SYSTEM</p>
     </div>
     <div class="item">
-      <img src="./assets/6.jpg" alt="icon1" />
+      <img src="./assets/experiences/exp_12.png" alt="exp_12" />
       <p>OVERHEAD CRANE</p>
     </div>
     <div class="item">
